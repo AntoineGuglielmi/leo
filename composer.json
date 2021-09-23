@@ -1,0 +1,20 @@
+{
+    "name": "antoineg/leo",
+    "description": "Php lite framework",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "leo\\": "src/",
+            " Dotenv\\": "vendor/vlucas/phpdotenv/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antoine Guglielmi",
+            "email": "contact.antoine.guglielmi@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.3"
+    }
+}
